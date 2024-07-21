@@ -1,3 +1,4 @@
+
 *{
     color: white;
 }
@@ -140,4 +141,147 @@ header.bg-dark{
 .flx1{
     display: flex;
     justify-content: space-around;
+}
+*{
+    color: white;
+}
+body {
+    background-color: black;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    10%   {background-color:black;}
+    30%  {background-color: rgb(49, 32, 32);}
+    100%  {background-color: rgb(17, 26, 14)}
+    70% { background-image: url(https://static.vecteezy.com/system/resources/thumbnails/040/699/713/small_2x/a-blurry-image-of-a-white-light-shining-through-a-dark-background-video.jpg);}
+  }
+
+.nav-link {
+    font-family: sans-serif;
+    font-size: larger;  
+}
+a{
+    color: white !important;
+}
+h2{
+    color: white;
+}
+.navbar-toggler{
+    display: flex;
+    justify-content: flex-end;
+}
+.flx{
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid{
+    position: relative;
+    top: 20%;
+    width:85%;
+    height:100%;
+    border-radius: 60%;
+}
+h3{
+    position: relative;
+    top:45%;
+    left:5%;
+    color: white;
+}
+.quote{
+   position: relative;
+   color: rgb(255, 75, 231);
+   top:45%;
+   left:5%;
+}
+.card-title{
+    color: black;
+}
+.card{
+    border-radius: 40%;
+    height: 350px;
+}
+.phot{
+    position: relative;
+    border-radius: 40%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+}
+.one{
+    height: 350px;
+    animation-name: hi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hi {
+    20%  {position: relative;left: -200%;opacity: 0;}
+    50%  {position: relative;left: -50%;opacity: 0.5;}
+    100% {position: relative;left: 0%;opacity:1;}
+  }
+header.bg-dark{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.nav{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+#sec1{
+    position: relative;
+    top:150px;
+}
+#sec2{
+    position: relative;
+    top:150px;
+}
+#sec3{
+    position: relative;
+    top:150px;
+}
+.sub{
+    position: relative;
+    top: 20px;
+}
+.subm{
+    width: 50%;
+    color: hotpink;
+    font-weight: bolder;
+}
+.forr{
+    color: hotpink;
+    font-weight: bolder;
+}
+.cap{
+    width: 500px;
+}
+#str{
+    width: 100px;
+    height: 100px;
+    animation-name: st;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes st{
+    1%  {position: relative;left: -100%;top: -100%;}
+    30% {position: relative;left: 0%;top: -20%;}
+    100%  {position: relative;left: 100%;top:-100%;}
+   
+   
+    95%{position: relative;top: 90%;left:-150%;}
+   
+    60% {position: relative;top: 10%;}
+}
+.log{
+    width: 20%;
+    height: 35%;
+}
+.flx1{
+    display: flex;
+    justify-content: center
 }
