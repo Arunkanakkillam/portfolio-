@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 (function() {
     emailjs.init("fRI6WqcmvTN5PKyGQ"); 
 })();
@@ -24,7 +24,7 @@ function sendMail(event) {
             alert("Your message was sent successfully");
         })
         .catch(err => console.log(err));
-=======
+
 (function() {
     emailjs.init("fRI6WqcmvTN5PKyGQ"); 
 })();
@@ -50,5 +50,5 @@ function sendMail(event) {
             alert("Your message was sent successfully");
         })
         .catch(err => console.log(err));
->>>>>>> c27c763 (Updated files with new changes)
-}
+    }
+    }
